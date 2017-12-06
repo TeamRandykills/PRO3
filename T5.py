@@ -8,27 +8,27 @@ import time, random, sys, re, os, json, subprocess, threading, string, codecs, r
 from gtts import gTTS
 
 
-cl = LINETCR.LINE() #Luffy
+cl = LINETCR.LINE() #1
 #cl.login(qr=True)
 cl.login(token="token")
 cl.loginResult()
 
-ki = LINETCR.LINE() #Zorro
+ki = LINETCR.LINE() #2
 #ki.login(qr=True)
 ki.login(token="token")
 ki.loginResult()
 
-kk = LINETCR.LINE() #Sanji
+kk = LINETCR.LINE() #3
 #kk.login(qr=True)
 kk.login(token="token")
 kk.loginResult()
 
-kc = LINETCR.LINE() #Ussop
+kc = LINETCR.LINE() #3
 #kc.login(qr=True)
 kc.login(token="token")
 kc.loginResult()
 
-ks = LINETCR.LINE() #Chooper
+ks = LINETCR.LINE() #4
 #ks.login(qr=True)
 ks.login(token="token")
 ks.loginResult()
@@ -42,10 +42,10 @@ print "login success bos"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-Owner : ✰Ќriֆ✰
+helpMessage ="""TEAM RANDY KILLS
+Owner : Adhi
 -==================-
-◄]·♦·Menu For Public·♦·[►
+===Menu For Public===
 [•]Help
 [•]Key
 [•]Mimin
@@ -86,13 +86,13 @@ Owner : ✰Ќriֆ✰
 [•]T-thai
 [•]T-id
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+TEAM RANDY KILLS
 -==================-
 """
-Keyowner ="""✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-Owner : ✰Ќriֆ✰
+Keyowner ="""TEAM RANDY KILLS
+Owner : adhi
 -==================-
-◄]·♦·Menu For Owner·♦·[►
+===Menu For Owner===
 [•]Kick ...
 [•]Invite (by mid)
 [•]Undang (Invite user by kontak)
@@ -139,11 +139,11 @@ Owner : ✰Ќriֆ✰
 [•]Speedbot
 [•]Speed
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+TEAM RANDY KILLS
 -==================-
 """
-Setgroup ="""
-◄]·♦·Menu For Admin·♦·[►
+Setgroup ="""TEAM RANDY KILLS
+-===Menu For Admin===-
 -==================-
 [•]Cancel
 [•]Buka qr/Open qr
@@ -229,16 +229,16 @@ Setgroup ="""
 [•]Greet
 👑Hanya Untuk Owner and Admin👑
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+TEAM RANDY KILLS
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks]
 DEF=[ki,kk,kc,ks]
-mid = cl.getProfile().mid #Luffy
-Amid = ki.getProfile().mid #Zorro
-Bmid = kk.getProfile().mid #Sanji
-Cmid = kc.getProfile().mid #Ussop
-Dmid = ks.getProfile().mid #Chooper
+mid = cl.getProfile().mid #1
+Amid = ki.getProfile().mid #2
+Bmid = kk.getProfile().mid #3
+Cmid = kc.getProfile().mid #4
+Dmid = ks.getProfile().mid #5
 Smid = satpam.getProfile().mid
 
 protectname = []
@@ -250,9 +250,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
 induk=[mid]
-Creator=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","mid semua bot"] #Krisna,kris,
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Creator=[""]
+admin=["mid semua bot"]
+owner=[""]
 wait = {
     'contact':False,
     'autoJoin':True,

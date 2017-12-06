@@ -323,7 +323,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("TEAM BOT KILLERS")
+      print("TeamRandykills")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)

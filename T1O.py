@@ -67,8 +67,8 @@ print "login success bos"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""
-Owner :
+helpMessage ="""TEAM RANDY KILLS
+Owner :adhi
 -==================-
 ◄]·♦·Menu For Public·♦·[►
 [•]Help

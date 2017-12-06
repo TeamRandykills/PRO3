@@ -8,54 +8,54 @@ import time, random, sys, re, os, json, subprocess, threading, string, codecs, r
 from gtts import gTTS
 
 
-cl = LINETCR.LINE() #Luffy
+cl = LINETCR.LINE()#1 
 #cl.login(qr=True)
-cl.login(token="")#1
+cl.login(token="")
 cl.loginResult()
 
-ki = LINETCR.LINE() #Zorro
+ki = LINETCR.LINE()#2
 #ki.login(qr=True)
-ki.login(token="")#2
+ki.login(token="")
 ki.loginResult()
 
-kk = LINETCR.LINE() #Sanji
+kk = LINETCR.LINE()#3
 #kk.login(qr=True)
-kk.login(token="")#3
+kk.login(token="")
 kk.loginResult()
 
-kc = LINETCR.LINE() #Ussop
+kc = LINETCR.LINE()#4
 #kc.login(qr=True)
-kc.login(token="")#4
+kc.login(token="")
 kc.loginResult()
 
-ks = LINETCR.LINE() #Chooper
+ks = LINETCR.LINE()#5
 #ks.login(qr=True)
-ks.login(token="")#5
+ks.login(token="")
 ks.loginResult()
 
-k1 = LINETCR.LINE() #nami
+k1 = LINETCR.LINE()#6
 #k1.login(qr=True)
-k1.login(token="")#6
+k1.login(token="")
 k1.loginResult()
 
-k2 = LINETCR.LINE() #nico robin
+k2 = LINETCR.LINE()#7
 #k2.login(qr=True)
-k2.login(token="")#7
+k2.login(token="")
 k2.loginResult()
 
-k3 = LINETCR.LINE() #
+k3 = LINETCR.LINE()#8 
 #k3.login(qr=True)
-k3.login(token="")#8
+k3.login(token="")
 k3.loginResult()
 
-k4 = LINETCR.LINE() #
+k4 = LINETCR.LINE()#9
 #k4.login(qr=True)
-k4.login(token="")#9
+k4.login(token="")
 k4.loginResult()
 
-k5 = LINETCR.LINE() #
+k5 = LINETCR.LINE()#10
 #k5.login(qr=True)
-k5.login(token="")#10
+k5.login(token="")
 k5.loginResult()
 
 satpam = LINETCR.LINE() # 
@@ -67,8 +67,8 @@ print "login success bos"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-Owner : ✰Ќriֆ✰
+helpMessage ="""
+Owner :
 -==================-
 ◄]·♦·Menu For Public·♦·[►
 [•]Help
@@ -111,11 +111,11 @@ Owner : ✰Ќriֆ✰
 [•]T-thai
 [•]T-id
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+✰ TEAM RANDY KILLS
 -==================-
 """
-Keyowner ="""✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-Owner : ✰Ќriֆ✰
+Keyowner ="""✰ TEAM RANDY KILLS
+Owner : Adhi
 -==================-
 ◄]·♦·Menu For Owner·♦·[►
 [•]Kick ...
@@ -164,7 +164,7 @@ Owner : ✰Ќriֆ✰
 [•]Speedbot
 [•]Speed
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+TEAM RANDY KILLS
 -==================-
 """
 Setgroup ="""
@@ -254,7 +254,7 @@ Setgroup ="""
 [•]Greet
 👑Hanya Untuk Owner and Admin👑
 -==================-
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
+TEAM RANDY KILLS
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5]
@@ -280,9 +280,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
-Creator=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid] #Krisna,kris,
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Creator=[""]
+admin=["mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid] #adhi#bonds
+owner=[""]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -291,21 +291,9 @@ wait = {
     'timeline':True,
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
-≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰<<
-
-≫ bot protect ≪
-≫ SelfBot ≪
-
-ṡȗƿƿȏяṭєԀ ɞʏ:
-  
-☆ FS3I FAMILY ☆
-✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-☆ ONE PIECE BOT PROTECT ☆
-
-Idline: http://line.me/ti/p/GkwfNjoPDH""",
+Idline: http://line.me/ti/p/""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/GkwfNjoPDH «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By\n TEAM RANDY KILLS
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
